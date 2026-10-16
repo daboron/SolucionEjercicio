@@ -360,3 +360,19 @@ data(Animals2)
 ?mammals
 ?Animals2
 ```
+
+# Apartado b
+
+```{r}
+# Dimensiones
+dim(mammals)
+dim(Animals2)
+
+head(mammals)
+tail(mammals)
+head(Animals2)
+tail(Animals2)
+
+str(mammals)
+str(Animals2)
+```
