@@ -402,4 +402,19 @@ commonAnimals <- intersect(rownames(mammals), rownames(Animals2))
 commonAnimals
 ```
 
+# Apartado e
+
+```{r}
+diff_mammals <- setdiff(rownames(mammals), rownames(Animals2))
+diff_mammals
+
+diff_animals2 <- setdiff(rownames(Animals2), rownames(mammals))
+diff_animals2
+
+# Total de animales que no se encuentran en ambos
+all_diff <- union(diff_mammals, diff_animals2)
+length(all_diff)
+#Se listan a continuación los animales en cuestión
+```
+
 # 
