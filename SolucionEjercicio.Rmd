@@ -376,3 +376,21 @@ tail(Animals2)
 str(mammals)
 str(Animals2)
 ```
+
+# Apartado c
+
+```{r}
+rownames(mammals)
+```
+
+```{r}
+colnames(mammals)
+```
+
+```{r}
+rownames(Animals2)
+```
+
+```{r}
+colnames(Animals2)
+```
