@@ -417,4 +417,18 @@ length(all_diff)
 #Se listan a continuación los animales en cuestión
 ```
 
+# Apartado f
+
+```{r}
+diferencias_detalle <- data.frame(
+  "mammals_body" = mammals[all_diff, "body"],
+  "mammals_brain" = mammals[all_diff, "brain"],
+  "Animals2_body" = Animals2[all_diff, "body"],
+  "Animals2_brain" = Animals2[all_diff, "brain"]
+)
+
+row.names(diferencias_detalle) <- all_diff
+diferencias_detalle
+```
+
 # 
